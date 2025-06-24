@@ -5,9 +5,9 @@ A simple, static website for **MK Code**. The site is styled with custom CSS to 
 ---
 
 ## 📁 Project Structure
-├── index.html # Main HTML file
-├── styles.css # Custom CSS with old-school design
-└── README.md # Project overview and structure
+- **index.html:** main HTML file
+- **styles.css:** custom CSS with old-school design
+- README.md: project overview and structure
 
 ## 📄 Description
 
