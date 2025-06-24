@@ -1,0 +1,113 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: #fffbe6; /* soft retro cream */
+  font-family: 'Courier New', Courier, monospace; /* old-school monospace */
+  color: #222;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* Centered wrapper with comfortable max width */
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  padding: 1.5rem;
+}
+
+/* Classic content box */
+.content-box {
+  background: #fff;
+  border: 2px inset #999;
+  box-shadow: 4px 4px 0 #ccc;
+  padding: 1.5rem 1.75rem;
+  text-align: justify;
+  border-radius: 6px;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #222;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2px dashed #aaa;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 0.3rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #003399;
+  text-decoration: underline;
+}
+a:hover {
+  color: #000088;
+}
+
+/* Lists */
+ul {
+  margin: 0.5rem 0 1rem 1.5rem;
+  list-style-type: square;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .content-box {
+    padding: 1.25rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.05rem;
+  }
+
+  p, ul {
+    font-size: 0.9rem;
+  }
+}
