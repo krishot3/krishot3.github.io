@@ -19,6 +19,6 @@ A simple, static website for **MK Code**. The site is styled with custom CSS to 
 
 ## 🚀 Live Site
 
-Visit: [https://krishot3.github.io/mkcode-website](https://krishot3.github.io/mkcode/)
+Visit: [https://krishot3.github.io/mkcode-website](https://krishot3.github.io/mkcode-website/)
 
 
