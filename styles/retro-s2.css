@@ -1,0 +1,111 @@
+/* style.css */
+
+/* Import retro pixel-style font (optional Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #000000;
+  color: #00ffcc;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+a {
+  color: #ff00cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffff00;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: repeating-linear-gradient(
+    45deg,
+    #111,
+    #111 10px,
+    #222 10px,
+    #222 20px
+  );
+  border: 4px double #00ffcc;
+  box-shadow: 0 0 15px #00ffcc;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.content-box {
+  padding: 20px;
+  background-color: #111;
+}
+
+.header h1 {
+  font-size: 18px;
+  color: #ffff00;
+  text-shadow: 0 0 5px #ff00ff;
+  border-bottom: 2px dashed #00ffcc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.header p {
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 14px;
+  color: #ff00cc;
+  border-left: 4px solid #00ffcc;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 30px;
+}
+
+footer {
+  margin-top: 40px;
+  padding-top: 10px;
+  border-top: 2px dashed #00ffcc;
+  text-align: center;
+  font-size: 10px;
+  color: #888;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box; /* include padding/border in width */
+}
+
+/* Responsive tweaks */
+@media (max-width: 400px) {
+  body {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .wrapper {
+    padding: 15px;
+    border-width: 3px;
+  }
+  .header h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  footer {
+    font-size: 9px;
+  }
+}
